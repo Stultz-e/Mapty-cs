@@ -1,0 +1,30 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html ./dist"
+  },
+  "keywords": [
+    "app",
+    "js"
+  ],
+  "author": "Dan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "config.js": "^0.1.0",
+    "core-js": "^3.6.5",
+    "fracty": "^1.0.11",
+    "helpers.js": "^1.0.0",
+    "img": "^3.0.3",
+    "parcel-bundler": "^1.12.4",
+    "regenerator-runtime": "^0.13.7",
+    "view.js": "^4.1.0"
+  }
+}
